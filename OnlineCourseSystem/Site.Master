@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="OnlineCourseSystem.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title><%:Page.Title%></title>
+    <link href="images/sdmg.png" rel="icon" />
+    <link href="images/sdmg.png" rel="apple-touch-icon" />
+    <link href="css/css.html" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/boxicons.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="headContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <header id="header" class="fixed-top">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a href="Default.aspx" class="logo">
+                    <img src="images/mylogo.png" alt="" class="img-fluid" />
+                </a>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="Registration.aspx">Registration</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="CourseOutline.aspx">Course outline</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="FAQ.aspx">FAQ</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown dropdown-toggle" data-toggle="dropdown" href="#">Trainee Information
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="allTrainee.aspx">All Trainee</a></li>
+                                <li><a href="#">Trainee of App Development Android</a></li>
+                                <li><a href="#"> Trainee of App Development IOS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="mainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer id="footer">
+            <div class="container py-1">
+                <p class="text-center copyright"><%=DateTime.Now.Year%> &copy; www.pathshala.com.bd</p>
+            </div>
+        </footer>
+    </form>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.step.min.js"></script>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wizard.min.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
