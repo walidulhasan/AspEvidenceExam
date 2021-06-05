@@ -30,7 +30,7 @@
                                 <thead class="table-light">
                                     <tr>
                                         <th class="text-center">Day</th>
-                                        <th style="width="50%">Topic</th>
+                                        <th >Topic</th>
                                         <th class="text-center">Class Duration</th>
                                         <th>Teaching Method</th>
                                     </tr>

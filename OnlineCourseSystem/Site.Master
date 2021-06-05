@@ -43,23 +43,22 @@
                                 </a>
                             <ul class="dropdown-menu">
                                 <li><a href="allTrainee.aspx">All Trainee</a></li>
-                                <li><a href="#">Trainee of App Development Android</a></li>
-                                <li><a href="#"> Trainee of App Development IOS</a></li>
                             </ul>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <div>
+        <div class="container">
             <asp:ContentPlaceHolder ID="mainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
         <footer id="footer">
-            <div class="container py-1">
-                <p class="text-center copyright"><%=DateTime.Now.Year%> &copy; www.pathshala.com.bd</p>
+            <div class="container">
+                <p class=" text-center"><%=DateTime.Now.Year%> &copy; www.pathshala.com.bd</p>
             </div>
         </footer>
+        
     </form>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.js"></script>
@@ -69,5 +68,8 @@
     <script src="js/main.js"></script>
     <script src="js/wizard.min.js"></script>
     <script src="js/api.js"></script>
+    <asp:ContentPlaceHolder ID="footerContent" runat="server">
+
+        </asp:ContentPlaceHolder>
 </body>
 </html>

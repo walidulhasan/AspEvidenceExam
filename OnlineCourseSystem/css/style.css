@@ -545,12 +545,9 @@ section {
         animation-delay: 0s;
         -webkit-animation: pulsate-btn 2s;
         animation: pulsate-btn 2s;
-        -webkit-animation-direction: forwards;
-        animation-direction: forwards;
         -webkit-animation-iteration-count: infinite;
         animation-iteration-count: infinite;
-        -webkit-animation-timing-function: steps;
-        animation-timing-function: steps;
+
         opacity: 1;
         border-radius: 50%;
         border: 5px solid rgba(73, 181, 231, 0.7);
@@ -2009,7 +2006,6 @@ textarea.parsley-success:focus {
             margin-top: -.5em;
             -webkit-animation: spinner 1.5s infinite linear;
             -moz-animation: spinner 1.5s infinite linear;
-            -ms-animation: spinner 1.5s infinite linear;
             -o-animation: spinner 1.5s infinite linear;
             animation: spinner 1.5s infinite linear;
             border-radius: .5em;
@@ -2090,7 +2086,7 @@ textarea.parsley-success:focus {
 }
 
 .home {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /*Mobile Responsive*/
@@ -2163,7 +2159,7 @@ textarea.parsley-success:focus {
 }
 
 #footer {
-    position: fixed;
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;

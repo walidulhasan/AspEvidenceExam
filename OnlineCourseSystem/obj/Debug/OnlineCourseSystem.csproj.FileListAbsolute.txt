@@ -52,8 +52,8 @@ D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSyst
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\bin\roslyn\VBCSCompiler.exe.config
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.csprojAssemblyReference.cache
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.csproj.CoreCompileInputs.cache
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.csproj.CopyComplete
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.dll
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.pdb
+D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.csprojAssemblyReference.cache
