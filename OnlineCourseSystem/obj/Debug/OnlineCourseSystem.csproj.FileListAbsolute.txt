@@ -57,3 +57,4 @@ D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSyst
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.dll
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.pdb
 D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\obj\Debug\OnlineCourseSystem.csprojAssemblyReference.cache
+D:\Project\2.C#\Asp.Net\1258683_WalidulHasan\OnlineCourseSystem\OnlineCourseSystem\bin\AspNet.ScriptManager.jQuery.dll
