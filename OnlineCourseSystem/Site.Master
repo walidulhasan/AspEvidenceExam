@@ -1,5 +1,9 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="OnlineCourseSystem.Site" %>
-
+<!------------------------------------------------------------------
+ * Project: Evidence Exam on Asp.net
+ * Author: Walidulhasan Boniamin
+ * ID:1258583
+ ------------------------------------------------------------------->
 <!DOCTYPE html>
 
 <html>
@@ -69,7 +73,6 @@
     <script src="js/wizard.min.js"></script>
     <script src="js/api.js"></script>
     <asp:ContentPlaceHolder ID="footerContent" runat="server">
-
-        </asp:ContentPlaceHolder>
+     </asp:ContentPlaceHolder>
 </body>
 </html>

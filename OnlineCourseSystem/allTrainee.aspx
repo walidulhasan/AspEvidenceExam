@@ -20,12 +20,13 @@
                     <asp:BoundField DataField="tiName" HeaderText="Name" SortExpression="tiName" />
                     <asp:TemplateField HeaderText="Image" SortExpression="photo">
                         <EditItemTemplate>
-                            <asp:Image Width="40px" Height="40px" runat="server" ImageUrl='<%# "~/Uploads/" + Eval("photo") %>'/>
+                             <asp:Image ID="Image1" Width="40px" Height="40px" runat="server" ImageUrl='<%# "~/Uploads/" + Eval("photo") %>' />
                             <asp:HiddenField ID="HiddenField1" runat="server" Value='<%# Bind("photo") %>' />
-                            <asp:FileUpload ID="FileUpload" runat="server" />
+                            <asp:FileUpload ID="FileUpload" onchange="ImagePreview(this);" runat="server" />
+                           
                         </EditItemTemplate>
                         <ItemTemplate>
-                            <asp:Image Width="50px" runat="server" ImageUrl='<%# "~/Uploads/" + Eval("photo") %>'/>
+                            <asp:Image Width="50px" runat="server" ImageUrl='<%# "~/Uploads/" + Eval("photo") %>' />
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:BoundField DataField="email" HeaderText="Email" SortExpression="email" />
@@ -43,11 +44,11 @@
                     <asp:BoundField DataField="gender" HeaderText="Gender" SortExpression="gender" />
                     <asp:TemplateField ShowHeader="False">
                         <EditItemTemplate>
-                            <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="True" CommandName="Update"  CssClass="btn btn-primary btn-sm"><i class="fa fa-database"></i> Update</asp:LinkButton>
-                            &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Cancel"  CssClass="btn btn-danger btn-sm"><i class="fa fa-backward"></i> Cancel</asp:LinkButton>
+                            <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="True" CommandName="Update" CssClass="btn btn-primary btn-sm"><i class="fa fa-database"></i> Update</asp:LinkButton>
+                            &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Cancel" CssClass="btn btn-danger btn-sm"><i class="fa fa-backward"></i> Cancel</asp:LinkButton>
                         </EditItemTemplate>
                         <ItemTemplate>
-                            <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" CssClass="btn btn-success btn-sm" ><i class="fa fa-pencil"></i> Edit</asp:LinkButton>
+                            <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" CssClass="btn btn-success btn-sm"><i class="fa fa-pencil"></i> Edit</asp:LinkButton>
                             &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Delete" CssClass="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Delete</asp:LinkButton>
                         </ItemTemplate>
                     </asp:TemplateField>
@@ -85,4 +86,5 @@
             </asp:SqlDataSource>
         </div>
     </div>
+     
 </asp:Content>

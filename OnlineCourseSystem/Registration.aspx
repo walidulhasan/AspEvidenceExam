@@ -105,6 +105,7 @@
                                         <asp:TextBox ID="insertJoin" CssClass="form-control" runat="server"></asp:TextBox>
                                          <asp:RequiredFieldValidator  ID="RequiredFieldValidator5" runat="server" ErrorMessage="Date of Birth is Required" ControlToValidate="insertJoin" ForeColor="Red"></asp:RequiredFieldValidator>
                                         <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Invalid Date" ControlToValidate="insertJoin" ForeColor="Red" Operator="DataTypeCheck" Type="Date"></asp:CompareValidator>
+
                                     </div>
                                 </div>
                             </div>
